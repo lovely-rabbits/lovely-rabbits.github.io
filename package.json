@@ -1,5 +1,5 @@
 {
-  "name": "lovely rabbits",
+  "name": "lovely-rabbits",
   "description": "可爱的兔子",
   "scripts": {
     "docs:dev": "vitepress dev docs",
