@@ -12,7 +12,21 @@ module.exports = {
 				},
 				{
 					text: '胎教故事',
-					link: '/story/index.md'
+					collapsed: true,
+					items: [
+						{
+							text: '三只小鸡',
+							link: '/story/story-1.md'
+						},
+						{
+							text: '小猪屁屁的梦',
+							link: '/story/story-2.md'
+						},
+						{
+							text: '小孩与栗子',
+							link: '/story/story-3.md'
+						}
+					]
 				},
 				{
 					text: '关于我们',
