@@ -2,7 +2,7 @@ name: Node.js Package
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -20,6 +20,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with: 
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BASE_BRANCH: main
+          BASE_BRANCH: master
           BRANCH: gh-pages
           FOLDER: docs/.vitepress/dist
